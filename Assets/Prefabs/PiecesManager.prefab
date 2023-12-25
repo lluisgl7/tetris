@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5653345534826396370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5653345534826396380}
+  - component: {fileID: 5653345534826396381}
+  m_Layer: 0
+  m_Name: PiecesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5653345534826396380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653345534826396370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5653345534826396381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653345534826396370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075f0590a139b9a429ce18ec832af65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecesPrefabs:
+  - {fileID: 3176165295043925951, guid: 18f177f6f5c54ed4e84aa93b19113728, type: 3}
+  - {fileID: 3176165295043925951, guid: 9d09c9e518369704097b3085e5ff6ded, type: 3}
+  - {fileID: 3176165295043925951, guid: 43f73f9c1e32e5c4b88eea34d2d309c2, type: 3}
+  - {fileID: 3176165295043925951, guid: 38c5f6978ac42e243a6b1bb95ef00794, type: 3}
+  - {fileID: 3176165295043925951, guid: e639a029c60113a4eb4ab98d900d206b, type: 3}
+  - {fileID: 3176165295043925951, guid: d69c947019b555e48a8129cb2b49981c, type: 3}
+  - {fileID: 3176165295043925951, guid: 4974b1bba2b24d8498eedf89753dac1e, type: 3}
+  blockPrefab: {fileID: 277544608991268723, guid: 7cb0948bcf85f2e40aa4b4d638305ee7, type: 3}
